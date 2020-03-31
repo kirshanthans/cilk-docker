@@ -4,7 +4,7 @@
 
 * `docker build -t cilk .`
 
-* `docker run -v `pwd`/test:/test -it cilk`
+* `docker run -v \`pwd\`/test:/test -it cilk`
 
 * Compile `clang -fcilkplus -o test test.c`
 
